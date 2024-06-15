@@ -6,11 +6,6 @@
 
 Large language models (LLMs) have shown excellent mastering of human language, but still struggle in real-world applications that require mathematical problem-solving. While many strategies and datasets to enhance LLMs' mathematics are developed, it remains a challenge to simultaneously maintain and improve both language and mathematical capabilities in deployed LLM systems. In this work, we tailor the Self-Critique pipeline, which addresses the challenge in the feedback learning stage of LLM alignment.  We first train a general Math-Critique model from the LLM itself to provide feedback signals. Then, we sequentially employ rejective fine-tuning and direct preference optimization over the LLM's own generations for data collection. Based on ChatGLM3-32B, we conduct a series of experiments on both academic and our newly created challenging dataset, \textsc{MathUserEval}. Results show that our pipeline significantly enhances the LLM's mathematical problem-solving while still improving its language ability, outperforming LLMs that could be two times larger.
 
-
-
-PaperLink: [2404.02893.pdf (arxiv.org)](https://arxiv.org/pdf/2404.02893.pdf)
-
-
 ---
 
 ## MathUserEval测试集/MathUserEval Test Set
